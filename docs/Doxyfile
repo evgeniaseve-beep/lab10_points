@@ -1,0 +1,11 @@
+PROJECT_NAME           = "Point Set Library"
+PROJECT_BRIEF          = "C library for managing points on a plane"
+OUTPUT_DIRECTORY       = .
+INPUT                  = ../include ../src
+RECURSIVE              = YES
+GENERATE_LATEX         = YES
+GENERATE_HTML          = YES
+FILE_PATTERNS          = *.h *.c
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+QUIET                  = YES
